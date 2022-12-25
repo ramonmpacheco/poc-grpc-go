@@ -113,3 +113,16 @@ sum::b (TYPE_FLOAT) => 6
   "result": 11
 }
 ~~~
+
+> Executando o client
+>
+> Execute o arquivo **client.go** (o server também deve estar rodando)
+
+```shell
+# [exemplo]
+$ go run cmd/client.go
+```
+> Deve aparecer o resultado:
+~~~shell
+{yyyy/mm/dd} {h:m:s} result:7
+~~~
