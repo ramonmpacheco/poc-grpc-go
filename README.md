@@ -73,11 +73,11 @@ $ source ~/.{seu bash}
 
 > Subindo o server GRPC:
 > 
-> Execute o arquivo **server.go**
+> Execute o arquivo **main.go**
 
 ```shell
 # [exemplo]
-$ go run server.go
+$ go run main.go
 ```
 
 > Em outra aba execute o evans:
@@ -94,7 +94,7 @@ $ evans -r -p 50051
 
  more expressive universal gRPC client
 
-controllergrpc.MathService@127.0.0.1:50051>
+pb.MathService@127.0.0.1:50051>
 ```
 
 > Faça uma chamada ao serviço criado:
